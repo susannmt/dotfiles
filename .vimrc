@@ -19,4 +19,6 @@ syntax on
 filetype plugin indent on
 colorscheme morning
 highlight Visual ctermbg=DarkGrey
+highlight Normal ctermbg=LightGrey
 
+autocmd VimEnter * :redraw!
