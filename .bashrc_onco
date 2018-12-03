@@ -119,4 +119,3 @@ fi
 
 # some oncostuff
 export ONCO_DEBUG=1
-export GIT_LFS_SKIP_SMUDGE=1

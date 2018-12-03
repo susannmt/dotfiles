@@ -1,0 +1,19 @@
+[user]
+    name = Susanne Tande
+    email = susannmt@ifi.uio.no
+
+[fetch]
+    prune = true
+
+[core]
+    editor = vim
+
+[alias]
+    ll = log --pretty=format:"%C(yellow)%h%Creset\\ %C(green)%ar%C(cyan)%d\\ %Creset%s%C(yellow)\\ [%cn]" --graph --decorate --all
+    edit = "!vim $(git ls-files -m | uniq)"
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- skip %f
+    process = git-lfs filter-process
+    required = true
