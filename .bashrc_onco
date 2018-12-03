@@ -119,3 +119,12 @@ fi
 
 # some oncostuff
 export ONCO_DEBUG=1
+
+# pipenv
+eval "$(pipenv --completion)"
+export PIPENV_VENV_IN_PROJECT=1
+export PIPENV_DEFAULT_PYTHON_VERSION=3.6
+export PIPENV_IGNORE_VIRTUALENVS=1
+
+# direnv
+eval "$(direnv hook bash)"
