@@ -5,3 +5,4 @@ Some dotfiles I use here and there.
 * `.bashrc_onco` -- `.bashrc` file with stuff needed for work, including pipenv/direnv specs
 * `.envrc_repo` -- `.envrc` file to place in project with pipenv for direnv to work
 * `.gitconfig` -- `.gitconfig` file with nice stuff and Git LFS skip smudge
+* `.ipython/profile_defaults/startup/*.py` -- scripts for nice functionality in `ipython` (thanks @jonathf)
