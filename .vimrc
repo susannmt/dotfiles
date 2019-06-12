@@ -14,6 +14,7 @@ set smarttab                            " indenting
 set softtabstop=4                       " insert four spaces when hitting tab
 set tabstop=4                           " an actual tab is four spaces
 set textwidth=79                        " generate newline at col 79
+set pastetoggle=<F2>                    " toogle :set paste and :set nopaste
 
 syntax on
 filetype plugin indent on
