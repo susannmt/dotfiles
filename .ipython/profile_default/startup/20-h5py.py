@@ -5,7 +5,7 @@ def read_h5_as_frame(filename):
     return frame
 
 def write_frame_as_h5(frame, filename):
-    """Open an h5py file and load all columns into a dataframe."""
+    """Save a pandas dataframe as an h5py file"""
     with h5.File(filename, "w") as handle:
         for name in frame.columns:
             if frame[name].dtype == "O":
